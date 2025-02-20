@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="romantic-music.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>❤️ My Love, [Afroja] ❤️</h1>
+        <p>তোমার জন্য এই ছোট্ট ভালোবাসার উপহার...</p>
+        <button onclick="showLoveMessage()">Click Here 💖</button>
+        <p id="loveMessage"></p>
+
+        <div class="gallery">
+            <img src="https://source.unsplash.com/300x300/?couple,love" alt="Love Image">
+            <img src="https://source.unsplash.com/300x300/?romantic,heart" alt="Romantic">
+            <img src="https://source.unsplash.com/300x300/?hug,kiss" alt="Hug">
+        </div>
+
+        <button onclick="toggleMusic()">🎵 Play Music</button>
+    </div>
+
+    <canvas id="heartCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
